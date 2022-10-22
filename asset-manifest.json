@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hw4-williamT386/static/css/main.b6832693.css",
-    "main.js": "/hw4-williamT386/static/js/main.f10239ac.js",
+    "main.js": "/hw4-williamT386/static/js/main.cf13c87c.js",
     "static/js/787.263e14e4.chunk.js": "/hw4-williamT386/static/js/787.263e14e4.chunk.js",
     "index.html": "/hw4-williamT386/index.html",
     "main.b6832693.css.map": "/hw4-williamT386/static/css/main.b6832693.css.map",
-    "main.f10239ac.js.map": "/hw4-williamT386/static/js/main.f10239ac.js.map",
+    "main.cf13c87c.js.map": "/hw4-williamT386/static/js/main.cf13c87c.js.map",
     "787.263e14e4.chunk.js.map": "/hw4-williamT386/static/js/787.263e14e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6832693.css",
-    "static/js/main.f10239ac.js"
+    "static/js/main.cf13c87c.js"
   ]
 }
