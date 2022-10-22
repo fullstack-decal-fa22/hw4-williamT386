@@ -5,11 +5,11 @@ import { useState } from 'react';
 const Menu = () => {
   const [old_color, setColor] = useState("");
 
-  const useColor = (new_color) => {
-    setColor(new_color);
-    // return <Color color={old_color}></Color>
-    // return <button></button>
-  }
+  // const useColor = (new_color) => {
+  //   setColor(new_color);
+  //   // return <Color color={old_color}></Color>
+  //   // return <button></button>
+  // }
 
   return (
     <div className="colorOptions">
