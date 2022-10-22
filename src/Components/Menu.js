@@ -1,22 +1,15 @@
 import React from 'react';
 import Color from './Color';
+import Block from './Block';
 import { useState } from 'react';
 
-const Menu = () => {
-  const [old_color, setColor] = useState("");
-
-  // const useColor = (new_color) => {
-  //   setColor(new_color);
-  //   // return <Color color={old_color}></Color>
-  //   // return <button></button>
-  // }
-
+const Menu = (props) => {
   return (
     <div className="colorOptions">
-      <button>Post blue</button>
-      <button onClick={() => { setColor('red'); }}>Post blue</button>
-      <p>{old_color + "3"}</p>
-      {/* <Color handleClick={() => console.log('hi')} color={old_color}></Color> */}
+      <Color color={'red'} handleClick={props.handleClick}></Color>
+      <Color color={'pink'} handleClick={props.handleClick}></Color>
+      <Color color={'blue'} handleClick={props.handleClick}></Color>
+      <Color color={'green'} handleClick={props.handleClick}></Color>
     </div >
   );
 }
